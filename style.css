@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+} 
+body{
+    height: 100vh;
+   
+    box-sizing: border-box;
+    background-color: beige;
+}
+.cabecalho{
+    
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+   
+}
+
+.logo{
+    width: 300px;
+}
+.apresentacao{
+    gap: 30px;
+    display: flex;
+    
+}
+.banner{
+    height: 200px;
+}
+.imagem{
+width: 100%;
+height: 53%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+}
+.imagem_2{
+    width: 100%;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.imagem_3{
+    width: 100%;
+    height: 270px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.imagem-2{
+    width: 100%;
+   
+    border-radius: 10px;
+
+}
+.linha{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    
+    justify-content: center;
+    gap: 30px;
+}
+.container-2{
+   
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.contexto{
+    width: 100%;
+}
+.card{
+    
+   background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    
+}
+.card-2{
+    
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+
+}
+.card-3{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+
+}
+.card-informacao{
+    list-style-type: none;
+    background-color: white;
+    width: 900px;
+    height: 900px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+  
+}
+.card-informacao-vectra{
+    list-style-type: none;
+    background-color: white;
+    width: 34%;
+    height: 855px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+}
+.card-formulario{
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+    background-color: white;
+    width: 400px;
+    height: 565px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+
+
+}
+.entrar{
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+}
+.criar-conta{
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.informacao{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Krona One', sans-serif;
+}
+.titulo{
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.saiba-mais{
+    font-family: 'Krona One', sans-serif;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.detalhes-veiculo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+    
+    
+}
+.detalhes-veiculo-2{
+    
+    padding: 30px 50px;
+    
+}
+.lista{
+    
+}
+.titulo-detalhe{
+    
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.411);
+}
+.sobre-veiculo{
+    margin-top: 15px;
+}
+.sub{
+    font-family: 'Krona One', sans-serif;
+    margin-left: 10px;
+    color: rgb(228, 0, 43);;
+}
+
+.destaque{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 0, 43);;
+    height: 50px;
+    width: 100%;
+    
+}
+.clique-aqui{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+}
+.rodape{
+    color: white;
+    background-color: rgb(46 45 55);
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+    
+}
+.sobre-nos{
+    width: 1000px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+}
+.rodape-2{
+    color: white;
+    background-color: rgb(46 45 55);
+    height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+    flex-wrap: wrap;
+    
+}
+
+    
+
+.instagram{
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.sobre__nos{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+    
+  @media(max-width: 1088px) {
+  
+    .container{
+        flex-wrap: wrap;
+    }
+
+  }
+  @media (max-width: 468px){
+    .apresentacao{
+        flex-direction: column;
+            }
+            .rodape-2{
+                padding: 7%;
+            }
+            .clique-aqui{
+                width: 340px;
+            }
+
+  }
+  @media (max-width: 1331px) {
+.container-2{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+  }
+  @media (max-width: 916px){
+    .detalhes-veiculo{
+        gap: 50px;
+   
+   
+    }
+    
+   
+  }
+  @media (max-width: 899px){
+.card-informacao{
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.detalhes-veiculo{
+   flex-direction: column;
+   gap: 15px;
+}
+}
+.detalhes-veiculo-2{
+    margin-left: 25px;
+}
+
+
